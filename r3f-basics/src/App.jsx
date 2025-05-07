@@ -5,6 +5,8 @@ import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, MeshWobbleMaterial, useHelper } from '@react-three/drei';
 import { DirectionalLightHelper } from 'three';
 
+// video tutorial: https://www.youtube.com/watch?v=vTfMjI4rVSI&ab_channel=rithmic
+
 const Cube = ({position, size, color}) => {
 
     const ref = useRef();
